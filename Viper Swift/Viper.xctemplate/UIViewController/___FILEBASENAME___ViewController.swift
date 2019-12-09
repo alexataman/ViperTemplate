@@ -10,7 +10,7 @@
 
 import UIKit
 
-protocol ___VARIABLE_name___ViewControllerOutput {}
+protocol ___VARIABLE_name___ViewControllerOutput: class {}
 
 final class ___VARIABLE_name___ViewController: UIViewController {
 	

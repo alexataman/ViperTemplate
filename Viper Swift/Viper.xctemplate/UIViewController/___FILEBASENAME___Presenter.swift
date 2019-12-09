@@ -11,7 +11,7 @@
 import Foundation
 
 protocol ___VARIABLE_name___PresenterInput {}
-protocol ___VARIABLE_name___PresenterOutput {}
+protocol ___VARIABLE_name___PresenterOutput: class {}
 
 final class ___VARIABLE_name___Presenter {
 
