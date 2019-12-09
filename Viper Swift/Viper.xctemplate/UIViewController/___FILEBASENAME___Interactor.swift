@@ -18,7 +18,7 @@ final class ___VARIABLE_name___Interactor {
 
 	// MARK: - Private properties
 
-	private let presenter: ___VARIABLE_name___PresenterOutput
+	private weak var presenter: ___VARIABLE_name___PresenterOutput?
 
 	init(presenter: ___VARIABLE_name___PresenterOutput) {
 		self.presenter = presenter

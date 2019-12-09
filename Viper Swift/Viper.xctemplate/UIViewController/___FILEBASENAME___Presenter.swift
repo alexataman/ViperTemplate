@@ -19,12 +19,14 @@ final class ___VARIABLE_name___Presenter {
 
 	// MARK: - Private properties
 
-	private let router: ___VARIABLE_name___RouterInput!
-	private let interactor: ___VARIABLE_name___InteractorInput!
+	private let router: ___VARIABLE_name___RouterInput
+	private let interactor: ___VARIABLE_name___InteractorInput
+	private weak var view: ___VARIABLE_name___ViewControllerOutput?
 
-	init(router: ___VARIABLE_name___RouterInput, interactor: ___VARIABLE_name___InteractorInput) {
+	init(router: ___VARIABLE_name___RouterInput, interactor: ___VARIABLE_name___InteractorInput, view: ___VARIABLE_name___ViewControllerOutput) {
 		self.router = router
 		self.interactor = interactor
+		self.view = view
 	}
 
 }
@@ -33,6 +35,6 @@ final class ___VARIABLE_name___Presenter {
 
 extension ___VARIABLE_name___Presenter: ___VARIABLE_name___PresenterInput {}
 
-// MARK: - Input
+// MARK: - Output
 
 extension ___VARIABLE_name___Presenter: ___VARIABLE_name___PresenterOutput {}

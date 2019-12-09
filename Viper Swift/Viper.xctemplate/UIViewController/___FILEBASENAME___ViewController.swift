@@ -10,9 +10,11 @@
 
 import UIKit
 
+protocol ___VARIABLE_name___ViewControllerOutput {}
+
 final class ___VARIABLE_name___ViewController: UIViewController {
 	
-	// MARK: - Outlests
+	// MARK: - Outlets
 
 	// MARK: - Public properties
 
@@ -22,3 +24,7 @@ final class ___VARIABLE_name___ViewController: UIViewController {
 
 	// MARK: - View controller lifecycle
 }
+
+// MARK: - Output
+
+extension ___VARIABLE_name___ViewController: ___VARIABLE_name___ViewControllerOutput {}
