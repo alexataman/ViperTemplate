@@ -18,10 +18,10 @@ final class ___VARIABLE_name___Interactor {
 
 	// MARK: - Private properties
 
-	private weak var presenter: ___VARIABLE_name___PresenterOutput?
+	weak var presenter: ___VARIABLE_name___PresenterOutput?
 
-	init(presenter: ___VARIABLE_name___PresenterOutput) {
-		self.presenter = presenter
+	init() {
+		
 	}
 
 }
